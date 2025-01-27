@@ -7,9 +7,6 @@ This repository contains a Python script designed to process and prepare crime d
 
 3. **Baseline Methods Script:** This script runs traditional machine learning methods, including Random Forest, SVM, and Logistic Regression, to compare their performance with the DySAT model.
 
-
-Here's a README file for the provided code:
-
 ---
 
 # Crime Data Processing and Feature Extraction
@@ -42,7 +39,6 @@ The script generates several pickle files in the specified output directory:
 - `adjacency_all_times__<time_delta>.pickle`: Adjacency matrices for each time step.
 - `dataset_dynamic__<time_delta>.pickle`: Dataset object ready for training with graph neural networks.
 
-Here’s a sample README file for the provided DySAT model code:
 
 ---
 
@@ -138,8 +134,6 @@ Upon training completion, the model will display performance metrics on the test
 - Misclassification rate
 
 These metrics help in assessing the effectiveness of the model in predicting crime patterns.
-
-Here's a README file for your code to run baseline methods:
 
 ---
 

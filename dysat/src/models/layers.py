@@ -50,10 +50,7 @@ class StructuralAttentionLayer(nn.Module):
         edge_index = graph.edge_index
         edge_weight = graph.edge_weight.reshape(-1, 1)  # Converting to a column vector
         H, C = self.n_heads, self.out_dim
-        # pdb.set_trace()
         x = self.lin(graph.x).view(-1, H, C) # [N, heads, out_dim] # Reshaping
-
-        # print(x.shape)
         
         # attention
         alpha_l = (x * self.att_l).sum(dim=-1).squeeze() # [N, heads]
