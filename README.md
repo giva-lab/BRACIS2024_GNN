@@ -21,17 +21,13 @@ Each folder contains detailed instructions on setting up the environment, prepar
 ## Citation
 If you use this code, please cite our paper:
 ```
-@INPROCEEDINGS{243068,
-  AUTHOR="Waqar Hassan and Marvin Cabral and Thiago Ramos and Antonio Castelo Filho and Luis Gustavo Nonato",
-  TITLE="Modeling and Predicting Crimes in the City of São Paulo Using Graph Neural Networks",
-  BOOKTITLE="BRACIS 2024 () ",
-  ADDRESS="",
-  DAYS="23-21",
-  MONTH="may",
-  YEAR="2024",
-  ABSTRACT="Crime prediction is a critical research area for enhancing public safety and optimizing law enforcement resource allocation, and machine learning techniques have had a significant impact in this field. Traditional machine learning models have long struggled to capture complex crime patterns, primarily due to the intricate interdependence of spatial and temporal data. However, recent advancements in machine learning, particularly with Graph Neural Networks (GNNs), offer a new perspective. GNNs have demonstrated remarkable success in various applications and they can also play a significant role in crime analysis and prediction. Therefore, in this work, we explore such a potential by examining two distinct spatiotemporal GNN architectures, namely Dynamic Self-Attention Network (DySAT) and Evolving Graph Convolutional Network (EvolveGCN), assessing and comparing their effectiveness for crime prediction. Moreover, we propose a data modeling framework that integrates crime, street map graphs, and urban data, which is fundamental to properly train the GNN models. As far as we know, there is no consolidated methodology to integrate those three modalities of data, being a relevant contribution of this work. Our findings underscore the effectiveness of GNNs in crime prediction tasks, offering valuable insights for researchers and practitioners in the field of crime prevention and public safety enhancement.",
-  KEYWORDS="- Neural Networks; - Deep Learning; - Machine Learning and Data Mining; - Forecasting",
-  URL="http://XXXXX/243068.pdf"
+@inproceedings{hassan2024modeling,
+  title={Modeling and Predicting Crimes in the City of S{\~a}o Paulo Using Graph Neural Networks},
+  author={Hassan, Waqar and Cabral, Marvin Mendes and Ramos, Thiago Rodrigo and Filho, Antonio Castelo and Nonato, Luis Gustavo},
+  booktitle={Brazilian Conference on Intelligent Systems},
+  pages={372--386},
+  year={2024},
+  organization={Springer}
 }
 ```
 
